@@ -1,0 +1,17 @@
+.footnote {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    transform: translateX(30px);
+
+    .footnote__item {
+        z-index: 5;
+        color: #111;
+        width: 200px;
+    }
+}

@@ -1,0 +1,20 @@
+.menu {
+    .menu__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .menu__item {
+            font-size: 20px;
+            padding: 10px 20px;
+            list-style-type: none;
+            color: rgb(253, 239, 222);
+            cursor: pointer;
+            transition: all 0.3s;
+
+            &:hover {
+                color: brown;
+            }
+        }
+    }
+}
